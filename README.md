@@ -1,6 +1,6 @@
 How to Download:
-    -Click the green "Code" button and choose the "Download ZIP" option.
-    -Extract the files to a new folder, ensuring that the Python scripts and the input files are located in the same directory.
+    - Click the green "Code" button and choose the "Download ZIP" option.
+    - Extract the files to a new folder, ensuring that the Python scripts and the input files are located in the same directory.
 
 How to Use:
     -The program will automatically convert 'image.jpg' using the 'custom_palette.act'.
