@@ -16,7 +16,7 @@ def load_act_palette(act_file_path):
             b = raw_palette[3*i + 2]
             palette.extend([r, g, b])
 
-        # Pad the palette with black (0, 0, 0) to ensure it's 256 colors long
+        # Pad the palette with black (0, 0, 0) to ensure it's 256 colors long.
         if num_colors < 256:
             palette.extend([0, 0, 0] * (256 - num_colors))
 
@@ -38,7 +38,7 @@ def convert_to_indexed_color(image_path, act_palette_path, output_path, dither=F
     if dither:
         converted_image = image.convert("RGB").quantize(palette=palette_image)
     else:
-        converted_image = image.convert("RGB").quantize(palette=palette_image, dither=None)
+        converted_image = image.convert("RGB").quantize(palette=palette_image, dither=Image.NONE)
 
     # Save the resulting image.
     converted_image.save(output_path, format="PNG")
