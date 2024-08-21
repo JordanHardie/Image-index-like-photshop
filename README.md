@@ -1,10 +1,10 @@
 How to Download:
-    - Click the green "Code" button and choose the "Download ZIP" option.
-    - Extract the files to a new folder, ensuring that the Python scripts and the input files are located in the same directory.
+    -Click the green "Code" button and choose the "Download ZIP" option.
+    -Extract the files to a new folder, ensuring that the Python scripts and the input files are located in the same directory.
 
 How to Use:
-    - The program will automatically convert 'image.jpg' using the 'custom_palette.act'.
-    - If you have an existing ACT file, place it in the same directory as the Python scripts and rename it to 'custom_palette.act'.
+    -The program will automatically convert 'image.jpg' using the 'custom_palette.act'.
+    -If you have an existing ACT file, place it in the same directory as the Python scripts and rename it to 'custom_palette.act'.
     To generate a new ACT file, run the act_palette_generator.py script. By default, it creates an ACT file containing only red, green, blue, and black. You can easily modify this palette to include other colors or change the file format it accepts, such as switching from JPG to PNG.
 
 Details:
